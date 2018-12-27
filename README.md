@@ -58,8 +58,8 @@ insert into db1.comfort (carid, manufacturer, model, comfort) values
 create table db1.sales(carid int, managerid int);
 
 insert into db1.sales (carid, managerid) values
-(1, 55)
-(2, 923)
+(1, 55),
+(2, 923),
 (3, 1),
 (4, 7736);
 
@@ -140,7 +140,6 @@ insert into db2.races(raceid, id, pilotid, place) values
 3. Click on *New repository*
   * Select *Ontop Virtual RDF Store* from the list.
   * Give an ID to your new repository (ex: Project).
-  * Give optionally also a descriptive title (ex: Universities Repository).
   * Click on *Next*.
 
 On the next page:
@@ -151,13 +150,13 @@ On the next page:
 
 ## Examples of SPARQL queries:
 
-PREFIX : <http://www.semanticweb.org/artemiy/ontologies/2018/11/untitled-ontology-8#>
-PREFIX obda: <https://w3id.org/obda/vocabulary#>
-PREFIX owl: <http://www.w3.org/2002/07/owl#>
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-PREFIX xml: <http://www.w3.org/XML/1998/namespace>
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+> PREFIX : <http://www.semanticweb.org/artemiy/ontologies/2018/11/untitled-ontology-8#>
+> PREFIX obda: <https://w3id.org/obda/vocabulary#>
+> PREFIX owl: <http://www.w3.org/2002/07/owl#>
+> PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+> PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+> PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+> PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 ------------------------
 ```
@@ -191,7 +190,6 @@ SELECT distinct  ?manuf  WHERE
 ```
 SELECT ?name WHERE
 { 
-
 ?w :Pilot_Name ?name
 }
 
