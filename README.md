@@ -27,7 +27,7 @@
 
 ## DB1
 
-_ create table db1.car(carid int primary key,
+_create table db1.car(carid int primary key,
 manufacturer varchar(255), 
 model varchar(255));   
 insert into db1.car (carid, manufacturer, model) values
@@ -38,7 +38,7 @@ insert into db1.car (carid, manufacturer, model) values
 
 (3, 'MERCEDES-BENZ', 'C63'),
 
-(4, 'TOYOTA', 'CAMRY'); _
+(4, 'TOYOTA', 'CAMRY');_
 
 ------------------------
 create table db1.comfort(carid int primary key,
