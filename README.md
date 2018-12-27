@@ -33,7 +33,6 @@ manufacturer varchar(255),
 model varchar(255));  
 
 insert into db1.car (carid, manufacturer, model) values
-
 (1, 'LADA', 'VESTA'),
 (2, 'FIAT', 'ALBEA'),
 (3, 'MERCEDES-BENZ', 'C63'),
@@ -48,7 +47,6 @@ model varchar(255),
 comfort int);   
 
 insert into db1.comfort (carid, manufacturer, model, comfort) values
-
 (1, 'LADA', 'VESTA', 1),
 (2, 'FIAT', 'ALBEA', 3),
 (3, 'MERCEDES-BENZ', 'C63', 7),
@@ -60,7 +58,6 @@ insert into db1.comfort (carid, manufacturer, model, comfort) values
 create table db1.sales(carid int, managerid int);
 
 insert into db1.sales (carid, managerid) values
-
 (1, 55)
 (2, 923)
 (3, 1),
@@ -72,13 +69,9 @@ insert into db1.sales (carid, managerid) values
 create table db1.managers(managerid int primary key, name varchar(255));
 
 insert into db1.managers (managerid, name) values
-
 (55, 'Art'),
-
 (923, 'Den'),
-
 (1, 'Van'),
-
 (7736, 'Man');
 ```
 
