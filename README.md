@@ -134,8 +134,8 @@ insert into db2.races(raceid, id, pilotid, place) values
 
 ## Setting up a Quest Virtual RDF Repository using the Sesame Workbench
 
-1. Download [this OWL ontology file](https://github.com/ontop/ontop-examples/blob/master/ekaw-tutorial-2016/session1/university-complete.ttl) .
-2. Download [this mapping file](https://github.com/ontop/ontop-examples/blob/master/ekaw-tutorial-2016/session1/university-complete.obda) .
+1. Download [this OWL ontology file](https://github.com/DenisRomashov/Data_Integration/blob/master/data_integration_ontop.owl) .
+2. Download [this mapping file](https://github.com/DenisRomashov/Data_Integration/blob/master/data_integration_ontop.obda) .
 
 3. Click on *New repository*
   * Select *Ontop Virtual RDF Store* from the list.
