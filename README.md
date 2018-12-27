@@ -30,7 +30,8 @@
 ```
 create table db1.car(carid int primary key,
 manufacturer varchar(255), 
-model varchar(255));   
+model varchar(255));  
+
 insert into db1.car (carid, manufacturer, model) values
 
 (1, 'LADA', 'VESTA'),
@@ -45,6 +46,7 @@ create table db1.comfort(carid int primary key,
 manufacturer varchar(255), 
 model varchar(255),
 comfort int);   
+
 insert into db1.comfort (carid, manufacturer, model, comfort) values
 
 (1, 'LADA', 'VESTA', 1),
@@ -55,7 +57,8 @@ insert into db1.comfort (carid, manufacturer, model, comfort) values
 ```
 ------------------------
 ```
-create table db1.sales(carid int, managerid int);   
+create table db1.sales(carid int, managerid int);
+
 insert into db1.sales (carid, managerid) values
 
 (1, 55)
@@ -79,8 +82,10 @@ insert into db1.managers (managerid, name) values
 (7736, 'Man');
 ```
 
-DB2
 
+# DB2
+
+```
 create table db2.vehicle(id int primary key,
 manufacturer varchar(255), 
 country varchar(255), 
@@ -92,9 +97,9 @@ insert into db2.vehicle (id, manufacturer, country, avr_price) values
 (333, 'MERCEDES-BENZ', 'DEU', 4000),
 (444, 'TOYOTA', 'JPN', 3000);
 
+```
 ------------------------
-			  
-
+```			  
 create table db2.max_speed(id int , speed int);
 
 insert into db2.max_speed(id, speed) values
@@ -103,8 +108,9 @@ insert into db2.max_speed(id, speed) values
 (333, 250),
 (444, 220);
 
+```
 ------------------------
-
+```
 create table db2.pilots (pilotid int primary key, name VARCHAR(255), surname VARCHAR(255));
 
 insert into db2.pilots(pilotid, name, surname) values
@@ -112,14 +118,16 @@ insert into db2.pilots(pilotid, name, surname) values
 (202, 'Denis', 'Rom'),
 (303, 'Slava', 'Chel');
 
+```
 ------------------------
-
+```
 create table db2.races(raceid int primary key, id int, pilotid int, place int);
 
 insert into db2.races(raceid, id, pilotid, place) values 
 (456, 111, 101, 1),
 (789, 333, 303, 2);
 
+```
 
 To deploy SPARQL endpoint and check results:
 
