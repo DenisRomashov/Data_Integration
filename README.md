@@ -25,7 +25,7 @@
 ![alt text](https://pp.userapi.com/c848520/v848520025/eac37/F2MR0_SSd7I.jpg)
 
 
-## DB1
+# DB1
 
 ```
 create table db1.car(carid int primary key,
@@ -48,11 +48,8 @@ comfort int);
 insert into db1.comfort (carid, manufacturer, model, comfort) values
 
 (1, 'LADA', 'VESTA', 1),
-
 (2, 'FIAT', 'ALBEA', 3),
-
 (3, 'MERCEDES-BENZ', 'C63', 7),
-
 (4, 'TOYOTA', 'CAMRY', 6);
 
 ```
@@ -62,11 +59,8 @@ create table db1.sales(carid int, managerid int);
 insert into db1.sales (carid, managerid) values
 
 (1, 55)
-
 (2, 923)
-
 (3, 1),
-
 (4, 7736);
 
 ```
