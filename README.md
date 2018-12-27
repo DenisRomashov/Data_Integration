@@ -28,10 +28,10 @@
 ## DB1
 
 ```
-*create table db1.car(carid int primary key,
+create table db1.car(carid int primary key,
 manufacturer varchar(255), 
 model varchar(255));   
-insert into db1.car (carid, manufacturer, model) values*
+insert into db1.car (carid, manufacturer, model) values
 
 (1, 'LADA', 'VESTA'),
 (2, 'FIAT', 'ALBEA'),
@@ -40,6 +40,7 @@ insert into db1.car (carid, manufacturer, model) values*
 
 ```
 ------------------------
+```
 create table db1.comfort(carid int primary key,
 manufacturer varchar(255), 
 model varchar(255),
@@ -54,9 +55,9 @@ insert into db1.comfort (carid, manufacturer, model, comfort) values
 
 (4, 'TOYOTA', 'CAMRY', 6);
 
-
+```
 ------------------------
-
+```
 create table db1.sales(carid int, managerid int);   
 insert into db1.sales (carid, managerid) values
 
@@ -68,9 +69,9 @@ insert into db1.sales (carid, managerid) values
 
 (4, 7736);
 
-
+```
 ------------------------
-
+```
 create table db1.managers(managerid int primary key, name varchar(255));
 
 insert into db1.managers (managerid, name) values
@@ -82,6 +83,7 @@ insert into db1.managers (managerid, name) values
 (1, 'Van'),
 
 (7736, 'Man');
+```
 
 DB2
 
