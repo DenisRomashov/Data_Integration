@@ -149,7 +149,7 @@ On the next page:
   * Click on *Create*.
 
 
-Examples of SPARQL queries:
+## Examples of SPARQL queries:
 
 PREFIX : <http://www.semanticweb.org/artemiy/ontologies/2018/11/untitled-ontology-8#>
 PREFIX obda: <https://w3id.org/obda/vocabulary#>
@@ -159,6 +159,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX xml: <http://www.w3.org/XML/1998/namespace>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
+------------------------
+```
 SELECT distinct ?n ?m WHERE
 { 
 ?name :Manager_Name ?n .
@@ -166,6 +168,9 @@ SELECT distinct ?n ?m WHERE
 ?p :Model ?m .
 }
 
+```
+------------------------
+```
 SELECT   ?c ?m ?sp WHERE
 { 
 ?c a :Car .
@@ -173,19 +178,29 @@ SELECT   ?c ?m ?sp WHERE
 ?c :Max_Speed ?sp
 }
 
+```
+------------------------
+```
 SELECT distinct  ?manuf  WHERE
 { 
 ?m :Manufacturer ?manuf
 }
 
+```
+------------------------
+```
 SELECT ?name WHERE
 { 
 
 ?w :Pilot_Name ?name
 }
 
+```
+------------------------
+```
 SELECT * WHERE
 { 
 ?id a :Car .
 ?id ?p ?o
 }
+```
