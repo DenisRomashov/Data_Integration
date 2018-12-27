@@ -122,7 +122,8 @@ insert into db2.races(raceid, id, pilotid, place) values
 
 ```
 
-To deploy SPARQL endpoint and check results:
+
+## To deploy SPARQL endpoint and check results:
 
 1. Download and unzip the archive with Tomcat [tomcat-ontop-bundle.zip](https://github.com/ontop/ontop-examples/raw/master/ekaw-tutorial-2016/tomcat-ontop-bundle.zip)
 2. Start tomcat from the *bin folder* using the commands: 
