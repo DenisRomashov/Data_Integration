@@ -25,9 +25,9 @@
 ![alt text](https://pp.userapi.com/c848520/v848520025/eac37/F2MR0_SSd7I.jpg)
 
 
-DB1
+## DB1
 
-create table db1.car(carid int primary key,
+*create table db1.car(carid int primary key,
 manufacturer varchar(255), 
 model varchar(255));   
 insert into db1.car (carid, manufacturer, model) values
@@ -38,7 +38,7 @@ insert into db1.car (carid, manufacturer, model) values
 
 (3, 'MERCEDES-BENZ', 'C63'),
 
-(4, 'TOYOTA', 'CAMRY');
+(4, 'TOYOTA', 'CAMRY');*
 
 ------------------------
 create table db1.comfort(carid int primary key,
