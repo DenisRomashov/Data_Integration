@@ -150,13 +150,13 @@ On the next page:
 
 ## Examples of SPARQL queries:
 
-> PREFIX : <http://www.semanticweb.org/artemiy/ontologies/2018/11/untitled-ontology-8#>
-> PREFIX obda: <https://w3id.org/obda/vocabulary#>
-> PREFIX owl: <http://www.w3.org/2002/07/owl#>
-> PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-> PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-> PREFIX xml: <http://www.w3.org/XML/1998/namespace>
-> PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+> PREFIX : <http://www.semanticweb.org/artemiy/ontologies/2018/11/untitled-ontology-8#>  
+> PREFIX obda: <https://w3id.org/obda/vocabulary#>  
+> PREFIX owl: <http://www.w3.org/2002/07/owl#>  
+> PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  
+> PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>  
+> PREFIX xml: <http://www.w3.org/XML/1998/namespace>  
+> PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>  
 
 ------------------------
 ```
